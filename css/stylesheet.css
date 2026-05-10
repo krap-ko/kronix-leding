@@ -1,0 +1,43 @@
+:root {
+    --svetl: #FFFFFF; /*это и у текста и у фона */
+    --temn: #111204; /* тоже самое, только уже темный*/
+    --green: #B9FD50; /* выделения */
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.temn-block {
+  background-color: var(--temn);
+  color: var(--svetl)
+}
+
+.svetl-block {
+  background-color: var(--svetl);
+  color: var(--temn);
+}
+
+.nix {
+  color: var(--green);
+}
+
+.hed {
+  display: flex;
+  justify-content: flex-end;
+}
