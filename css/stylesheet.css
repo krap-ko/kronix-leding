@@ -33,11 +33,79 @@ body {
   color: var(--temn);
 }
 
+.small-text {
+  font-size: 9px;
+}
+
+.si {
+  font-size: 7px;
+}
+
+.cen {
+  text-align: center;
+}
+
+.glav {
+  color: var(--green);
+  margin: 0;
+}
+
 .nix {
   color: var(--green);
 }
+/*не забудь сделать для шапки бургер*/
 
-.hed {
+.hero-glav {
+   /*как сделать блочную тень для текста*/
+}
+
+.trusted {
+  display: block;
+  margin-top: 25px;
+  font-size: 6px;
+}
+
+.sponsr {
+  margin-top: 10px;
+  background-color: #222222;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.spon {
+  width: 55px;
+}
+
+.how {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.rl {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.text-left {
+  margin: 30px 0px 15px 10px;
+}
+
+.text-right {
+  margin: 38px 10px 15px 0px;
+  font-size: 8px;
+}
+
+.rab {
+  display: flex;
+  justify-content: space-between;
+  font-size: 6px;
+  padding: 10px;
+}
+
+.znak {
+  width: 20px;
+  margin-left: 10px;
 }
